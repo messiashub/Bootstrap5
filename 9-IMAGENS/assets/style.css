@@ -1,0 +1,22 @@
+*{
+    box-shadow: inset 0px 0px 0px 1px  rgb(228, 3, 3);
+}
+/* .position{
+    position: relative;
+} */
+/* .texto{
+    width: 400px;
+    height: 200px;
+    position:absolute;
+    bottom: 20%;
+} */
+/* .position p{
+   
+   
+} */
+
+@media(max-width: 400px){
+    .texto p{
+        font-size: 1.5rem;
+    }
+}
