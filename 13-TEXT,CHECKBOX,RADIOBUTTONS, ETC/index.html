@@ -19,18 +19,41 @@
 
                     <div class="mb-3">
                         <label class="form-label">Usuário</label>
-                        <input class="form-control" type="text" name="">
+                        <input class="form-control" placeholder="escreva aqui o seu usuário" type="text" name="">
                     </div>
 
                     <div class="mb-3">
                         <label for="" class="form-label">Senha</label>
                         <input type="password" class="form-control" name="" id="">
+                        <div class="form-text">A senha deve ter entre 6 e 16 caracteres</div>
+                    </div>
+
+                    <!-- Check-box -->
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" name="check_ligado" id="check_ligado">
+                        <label class="form-check-label" for="check_ligado">Manter-se ligado</label>
+                    </div>
+
+                    <!-- radio buttons -->
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioOpcao" id="radioOpcao1">
+                        <label class="form-check-label" for="radioOpcao1">
+                            Homem
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioOpcao" id="radioOpcao2"
+                            checked>
+                        <label class="form-check-label" for="radioOpcao2">
+                            Mulher
+                        </label>
                     </div>
 
                     <div class="text-end">
                         <input type="submit" value="Entrar" class="btn btn-primary">
                     </div>
-              
+
             </div>
         </div>
     </div>
@@ -39,9 +62,9 @@
 
 
     </form>
-    
 
-    
+
+
 
 
     <script src="/assets/bootstrap/bootstrap.bundle.min.js"></script>
